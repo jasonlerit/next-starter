@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export const Navbar = () => {
   return (
-    <header className='absolute w-full'>
+    <header className='w-full'>
       <nav className='container mx-auto h-14 flex justify-between items-center px-4'>
         <span className='font-bold'>Nextjs Starter</span>
         <div className='flex items-center gap-1'>
