@@ -1,11 +1,11 @@
-interface PostListResponse {
+export interface PostListResponse {
   posts: Post[]
   total: number
   skip: number
   limit: number
 }
 
-interface Post {
+export interface Post {
   id: number
   title: string
   body: string
